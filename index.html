@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="result-container">
+        <p class="text-decaration">Your Results</p>
+        <div id="cirle-container">
+          <p>
+            <span>76</span> <br />
+            of 100
+          </p>
+        </div>
+        <h2>Great</h2>
+        <p class="text-decaration">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div id="summary">
+        <p id="title">Summary</p>
+        <div id="reaction" class="summary-container">
+          <div class="pic-container">
+            <img src="assets/images/icon-reaction.svg" alt="" />
+            <p class="R">Reaction</p>
+          </div>
+          <p>80 <span class="opacity">/ 100</span></p>
+        </div>
+        <div id="memory" class="summary-container">
+          <div class="pic-container">
+            <img src="assets/images/icon-memory.svg" alt="" />
+            <p class="M">Memory</p>
+          </div>
+          <p>92 <span class="opacity">/ 100</span></p>
+        </div>
+        <div id="verbal" class="summary-container">
+          <div class="pic-container">
+            <img src="assets/images/icon-verbal.svg" alt="" />
+            <p class="V">Verbal</p>
+          </div>
+          <p>61 <span class="opacity">/ 100</span></p>
+        </div>
+        <div id="visual" class="summary-container">
+          <div class="pic-container">
+            <img src="assets/images/icon-visual.svg" alt="" />
+            <p class="Vi">Visual</p>
+          </div>
+          <p>72 <span class="opacity">/ 100</span></p>
+        </div>
+        <div id="button-container">
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
